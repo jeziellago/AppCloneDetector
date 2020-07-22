@@ -17,7 +17,7 @@ class MyApplication : Application() {
         AppCloneDetector.create(this)
             .enableKillApp() // kill app on cloning detect
             .onCloningDetect {
-                // do something on clone detect
+                // do something when clone is detect
             }.start()
     }
 }
