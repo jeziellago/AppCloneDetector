@@ -1,0 +1,3 @@
+rootProject.name='App Cloning Detector'
+include ':app'
+include ':clonedetector'
